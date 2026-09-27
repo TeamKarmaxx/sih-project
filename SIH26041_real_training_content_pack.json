@@ -1,0 +1,346 @@
+{
+  "source_basis": {
+    "note": "Original educational training content for the SIH prototype, informed by DGMS statutory/safety material. It is not a substitute for mine-specific SOPs, statutory training, or competent safety review.",
+    "primary_reference": "DGMS Mines Safety & allied Legislation, including the Coal Mines Regulations, 2017 and Mine Rescue Rules, 1985."
+  },
+  "modules": [
+    {
+      "key": "emergency_evacuation_fire",
+      "title": "Emergency Evacuation & Fire Safety",
+      "description": "Recognize emergency warnings, follow the site's emergency communication and evacuation arrangements, and reach the designated safe area without taking unnecessary risks.",
+      "difficulty": "beginner",
+      "language": "English",
+      "ar_scene": "mine_emergency_01",
+      "hazard_type": "Emergency evacuation",
+      "lessons": [
+        {
+          "key": "ee_l1",
+          "title": "Recognizing an Industrial Emergency",
+          "content": "An industrial emergency can involve fire, smoke, equipment failure, a major roof or ground incident, loss of ventilation, or another event requiring people to move to safety. The first priority is protecting people and following the mine or workplace emergency plan.\n\nWhen an alarm, emergency announcement, or other authorized warning is received, stop normal work safely, pay attention to instructions, and use the designated communication and evacuation arrangements. Do not ignore an alarm because the situation is not yet obvious.\n\nAlways follow the site's current emergency plan, escape-route markings, assembly arrangements, and instructions from authorized personnel."
+        },
+        {
+          "key": "ee_l2",
+          "title": "Safe Evacuation Awareness",
+          "content": "Evacuation should be orderly and based on the designated escape routes and emergency procedures for the site. Workers should keep awareness of their surroundings, avoid unnecessary delay, and report to the designated assembly or safe area.\n\nDo not return to an affected area simply to collect belongings or equipment. Do not leave the designated safe area until authorized personnel give further instructions.\n\nThe exact escape route, assembly point, alarm signal, and emergency communication method are site-specific and must be learned during workplace training."
+        },
+        {
+          "key": "ee_l3",
+          "title": "Fire Hazard Awareness",
+          "content": "Fire prevention begins with recognizing hazards and reporting unsafe conditions. Examples include damaged electrical equipment, overheating machinery, combustible material accumulation, or other conditions identified by the site's risk assessment.\n\nIn an emergency, use only the response actions you have been trained and authorized to perform. If the situation is beyond your training or the emergency procedure calls for evacuation, prioritize evacuation and notification rather than attempting an unsafe intervention.\n\nFire response equipment and procedures vary by workplace, so the simulator teaches decision-making rather than replacing site-specific emergency training."
+        }
+      ],
+      "drill": {
+        "title": "Emergency Evacuation Drill",
+        "description": "Practice recognizing an emergency warning and choosing the safe response path in a simulated mining environment.",
+        "instructions": "Identify the warning, follow the designated safe route shown by the simulation, avoid returning to the affected area, and finish at the designated safe/assembly point.",
+        "difficulty": "beginner",
+        "ar_scene": "mine_emergency_01",
+        "equipment": "helmet, safety lamp, protective boots",
+        "scenario": "A simulated mine emergency requires workers to leave the affected area and reach the designated safe location.",
+        "hazard_type": "Emergency evacuation",
+        "safety_action": "Follow the site's emergency procedure, use the designated escape route, report to the safe/assembly area, and wait for authorization before further movement.",
+        "questions": [
+          {
+            "question": "When an authorized emergency warning is received, what should be the first priority?",
+            "option_a": "Continue normal work until the situation becomes obvious",
+            "option_b": "Follow the site's emergency procedure and move toward safety as instructed",
+            "option_c": "Return to collect personal belongings",
+            "option_d": "Ignore the warning if no smoke is visible",
+            "correct_answer": "B"
+          },
+          {
+            "question": "Where should a worker go after completing the designated evacuation route?",
+            "option_a": "Back to the affected work area",
+            "option_b": "Any convenient location outside the workplace",
+            "option_c": "The designated safe or assembly area",
+            "option_d": "A restricted area selected without instruction",
+            "correct_answer": "C"
+          },
+          {
+            "question": "What should a worker do if an emergency action is beyond their training or authorization?",
+            "option_a": "Attempt an unfamiliar intervention immediately",
+            "option_b": "Prioritize the approved emergency procedure and seek authorized assistance",
+            "option_c": "Hide the problem from supervisors",
+            "option_d": "Return to normal work",
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why should workers avoid returning to an affected area after evacuation?",
+            "option_a": "Because personal belongings are never important",
+            "option_b": "Because re-entry may expose them to the continuing hazard",
+            "option_c": "Because assembly areas are optional",
+            "option_d": "Because alarms are always false",
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which information is site-specific and must be learned from the workplace emergency plan?",
+            "option_a": "The designated escape route and assembly arrangement",
+            "option_b": "The existence of emergencies",
+            "option_c": "The meaning of the word evacuation",
+            "option_d": "The need to take safety seriously",
+            "correct_answer": "A"
+          },
+          {
+            "question": "After reaching the designated safe area, what should the worker do?",
+            "option_a": "Re-enter immediately",
+            "option_b": "Wait for authorized instructions",
+            "option_c": "Choose a new route independently",
+            "option_d": "Leave without reporting",
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is a useful prevention practice for fire hazards?",
+            "option_a": "Ignore damaged equipment until it fails",
+            "option_b": "Report unsafe conditions identified by workplace procedures",
+            "option_c": "Store combustible material wherever space is available",
+            "option_d": "Disable warning systems",
+            "correct_answer": "B"
+          },
+          {
+            "question": "What should the simulator's evacuation drill primarily assess?",
+            "option_a": "Ability to perform untrained emergency repairs",
+            "option_b": "Ability to recognize warnings and choose the safe response path",
+            "option_c": "Ability to ignore alarms",
+            "option_d": "Ability to re-enter hazardous areas",
+            "correct_answer": "B"
+          }
+        ]
+      },
+      "module_assessment": [
+        [
+          "What is the primary purpose of an emergency evacuation procedure?",
+          "Protect people by moving them to designated safe locations",
+          "Continue production at all costs",
+          "Collect equipment before leaving",
+          "Wait until every hazard is visible",
+          "A"
+        ],
+        [
+          "Which source should determine the exact evacuation route at a workplace?",
+          "The current site emergency plan and designated route markings",
+          "A random route chosen during the emergency",
+          "An old route remembered from another site",
+          "A route chosen only for convenience",
+          "A"
+        ],
+        [
+          "What should happen after reaching the designated assembly area?",
+          "Remain there and follow authorized instructions",
+          "Return to work immediately",
+          "Re-enter to check equipment",
+          "Move into a restricted area",
+          "A"
+        ],
+        [
+          "Why is reporting unsafe fire-related conditions important?",
+          "It allows hazards to be addressed through workplace safety procedures",
+          "It guarantees an emergency will never occur",
+          "It replaces all emergency training",
+          "It removes the need for inspections",
+          "A"
+        ],
+        [
+          "What should a worker do if an emergency response action is outside their training?",
+          "Follow the approved procedure and seek authorized assistance",
+          "Experiment with a new technique",
+          "Continue working normally",
+          "Hide the situation",
+          "A"
+        ],
+        [
+          "Which behavior is inappropriate after evacuation?",
+          "Returning to the affected area without authorization",
+          "Waiting at the designated safe area",
+          "Following the emergency plan",
+          "Listening for further instructions",
+          "A"
+        ],
+        [
+          "Why are site-specific emergency instructions important?",
+          "Escape routes and response arrangements depend on the workplace",
+          "All mines use identical layouts",
+          "They are only useful for visitors",
+          "They replace safety equipment",
+          "A"
+        ],
+        [
+          "What does the AR evacuation assessment measure?",
+          "Recognition of warnings and selection of a safe response",
+          "Physical strength",
+          "Production speed",
+          "Ability to operate unfamiliar equipment",
+          "A"
+        ]
+      ]
+    },
+    {
+      "key": "mine_tunnel_gas",
+      "title": "Mine Tunnel & Hazardous Gas Safety",
+      "description": "Understand why ventilation, gas monitoring, warning signs, communication, and controlled response are essential in underground mine environments.",
+      "difficulty": "intermediate",
+      "language": "English",
+      "ar_scene": "mine_tunnel_01",
+      "hazard_type": "Tunnel hazard",
+      "lessons": [
+        {
+          "key": "mt_l1",
+          "title": "Underground Tunnel Hazards",
+          "content": "Underground workings can present hazards associated with ventilation, ground conditions, fire, machinery, and hazardous atmospheres. Workers must follow the mine's approved operating procedures and emergency arrangements.\n\nThe DGMS has emphasized the importance of maintaining ventilation arrangements and preserving an available means of egress during emergencies. Ventilation problems can contribute to unsafe atmospheric conditions, so changes or damage to ventilation controls must be handled through authorized mine procedures."
+        },
+        {
+          "key": "mt_l2",
+          "title": "Hazardous Atmosphere Awareness",
+          "content": "A hazardous atmosphere may not always be obvious from appearance alone. Gas monitoring and the mine's ventilation system are therefore important parts of underground safety.\n\nWorkers should take alarms and abnormal readings seriously, follow the site's response procedure, and move to a safe location when instructed. Do not enter or remain in an area that the site's procedure identifies as unsafe.\n\nThe specific gas limits, instruments, alarm settings, and authorized response actions must come from the applicable mine rules and site procedures."
+        },
+        {
+          "key": "mt_l3",
+          "title": "Ventilation and Emergency Response",
+          "content": "Ventilation helps control the underground atmosphere and supports safe working conditions. DGMS guidance highlights the importance of maintaining ventilation arrangements and avoiding unauthorized disturbance of ventilation controls.\n\nIf ventilation is disrupted or an atmospheric warning occurs, workers should follow the mine's emergency procedure, communicate the condition through the approved reporting chain, and move to the designated safe area when required. Only trained and authorized personnel should carry out technical ventilation interventions."
+        }
+      ],
+      "drill": {
+        "title": "Mine Tunnel Emergency Drill",
+        "description": "Practice responding to a simulated tunnel hazard and atmospheric warning without entering or remaining in an unsafe area.",
+        "instructions": "Recognize the tunnel warning, follow the simulation's designated safe response, avoid the unsafe zone, and report/complete the drill as instructed.",
+        "difficulty": "intermediate",
+        "ar_scene": "mine_tunnel_01",
+        "equipment": "helmet, safety lamp, protective boots",
+        "scenario": "A simulated underground tunnel develops a hazardous condition and the worker must follow the approved emergency response.",
+        "hazard_type": "Tunnel hazard",
+        "safety_action": "Take the warning seriously, follow the mine's emergency procedure, avoid the unsafe area, communicate the condition through the approved chain, and wait for authorized instructions.",
+        "questions": [
+          {
+            "question": "Why is ventilation important in underground workings?",
+            "option_a": "It is only needed for comfort",
+            "option_b": "It helps maintain safe atmospheric conditions and control hazards",
+            "option_c": "It replaces all gas monitoring",
+            "option_d": "It is used only after an incident",
+            "correct_answer": "B"
+          },
+          {
+            "question": "What should a worker do after an atmospheric warning or abnormal reading?",
+            "option_a": "Treat it as unimportant if the tunnel looks normal",
+            "option_b": "Follow the site's approved response procedure",
+            "option_c": "Continue deeper into the affected area",
+            "option_d": "Disable the warning system",
+            "correct_answer": "B"
+          },
+          {
+            "question": "Who should perform technical ventilation interventions?",
+            "option_a": "Any worker who is nearby",
+            "option_b": "Only trained and authorized personnel under the applicable procedure",
+            "option_c": "Visitors",
+            "option_d": "No one",
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why should ventilation controls not be disturbed without authorization?",
+            "option_a": "Ventilation changes can affect underground atmospheric conditions and safety",
+            "option_b": "Ventilation has no safety function",
+            "option_c": "It only changes lighting",
+            "option_d": "It affects personal belongings",
+            "correct_answer": "A"
+          },
+          {
+            "question": "Can a hazardous atmosphere always be identified visually?",
+            "option_a": "Yes, because every hazardous gas is visible",
+            "option_b": "No, visual appearance alone is not a reliable safety check",
+            "option_c": "Only during daylight",
+            "option_d": "Only when machinery is running",
+            "correct_answer": "B"
+          },
+          {
+            "question": "What should happen when a worker is instructed to leave an unsafe tunnel area?",
+            "option_a": "Remain there until the warning disappears",
+            "option_b": "Follow the approved evacuation or safe-movement procedure",
+            "option_c": "Explore another unsafe area",
+            "option_d": "Ignore the instruction",
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is communication important during a tunnel emergency?",
+            "option_a": "It helps the approved response process receive information about the hazard",
+            "option_b": "It removes the need for evacuation",
+            "option_c": "It guarantees the hazard has ended",
+            "option_d": "It replaces all emergency procedures",
+            "correct_answer": "A"
+          },
+          {
+            "question": "What is the main learning objective of the tunnel AR drill?",
+            "option_a": "Practice safe decision-making around a simulated tunnel hazard",
+            "option_b": "Practice untrained equipment repair",
+            "option_c": "Practice entering unsafe areas",
+            "option_d": "Practice disabling alarms",
+            "correct_answer": "A"
+          }
+        ]
+      },
+      "module_assessment": [
+        [
+          "Why is ventilation a key underground safety control?",
+          "It helps maintain safe atmospheric conditions",
+          "It is only decorative",
+          "It replaces all training",
+          "It is only used after accidents",
+          "A"
+        ],
+        [
+          "What should a worker do after a gas or atmospheric warning?",
+          "Follow the site's approved response procedure",
+          "Ignore it if the tunnel looks normal",
+          "Continue deeper into the affected area",
+          "Disable the alarm",
+          "A"
+        ],
+        [
+          "Who should make technical changes to ventilation controls?",
+          "Trained and authorized personnel",
+          "Any available worker",
+          "Visitors",
+          "Anyone without instruction",
+          "A"
+        ],
+        [
+          "Why can visual inspection alone be insufficient for atmospheric safety?",
+          "Some hazardous atmospheric conditions are not reliably identified by sight",
+          "Every gas is invisible",
+          "Tunnels have no lighting",
+          "Visual inspection is illegal",
+          "A"
+        ],
+        [
+          "What is an appropriate response to an unsafe-area instruction?",
+          "Move according to the approved safe-movement or evacuation procedure",
+          "Remain in the area",
+          "Explore another route without instruction",
+          "Ignore the instruction",
+          "A"
+        ],
+        [
+          "Why should ventilation arrangements be maintained properly?",
+          "They support safe atmospheric conditions and emergency egress",
+          "They are only needed for equipment cooling",
+          "They have no relation to safety",
+          "They replace emergency communication",
+          "A"
+        ],
+        [
+          "What role does communication play in an emergency?",
+          "It supports the approved reporting and response process",
+          "It replaces evacuation",
+          "It proves the hazard is gone",
+          "It makes alarms unnecessary",
+          "A"
+        ],
+        [
+          "What should the AR tunnel drill evaluate?",
+          "Safe decision-making around a simulated tunnel hazard",
+          "Untrained technical intervention",
+          "Speed of entering the hazard zone",
+          "Ability to disable safety systems",
+          "A"
+        ]
+      ]
+    }
+  ]
+}
